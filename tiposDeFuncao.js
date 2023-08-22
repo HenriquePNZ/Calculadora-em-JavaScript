@@ -9,7 +9,6 @@ function calculadora () {
     }
 
     else {
-
          let valor1 = Number (prompt('Insira o primeiro valor:'));
             
          if (!valor1){
@@ -22,10 +21,8 @@ function calculadora () {
         if (!valor2){
             alert ('Erro - parâmetros inválidos')
             calculadora ();
-        }
-
+    }
         let resultado; 
-
 
         function Soma (){
             resultado = valor1 + valor2;
@@ -84,7 +81,7 @@ function calculadora () {
         }
     
         else if (operacao == 3){
-            Multiplição ();
+            Multiplicação ();
         }
     
         else if (operacao == 4){
